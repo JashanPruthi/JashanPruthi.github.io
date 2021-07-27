@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Advanced Search</title>
+</head>
+<style>
+    #a{
+        text-align: right;}
+    a{
+        color: black;
+        text-decoration: none;
+        padding: 5px;}
+    form{
+        padding-left: 30px;
+    }
+    form label{
+        width: 200px;
+        display: inline-block;
+    }
+    #fields input{
+        width: 600px;
+        height: 20px;
+    }
+    #btn{
+        background-color: #4b8cf7;
+        color: white;
+        height: 25px;
+        left:57%;
+        position:absolute;
+    }
+    #title{
+        padding-left: 30px;
+        color: orangered;
+        font-size: 20px;
+    }
+</style>
+<body>
+        <div id ="a">
+        <a href = "index.html">Google Search</a>
+        </div>
+        <img src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png" width="70" alt="file google logo svg wikimedia commons" /><p/>
+        <div id  = title>
+        Advanced Search
+        </div>
+        <hr size = "1" color="lightgray"><p/>
+        <form action="https://google.com/search">
+            Find Pages with...<p/>
+            <div id = "fields">
+                <label> All these words:</label>
+                <input type="text" name = "as_q"><p/>
+                <label> This exact phrase or word:</label>
+                <input type="text" name = "as_epq"><p/>
+                <label>Any of these words: </label>
+                <input type="text" name = "as_oq"><p/>
+                <label>None of these words: </label>
+                <input type="text" name  = "as_eq" ><p/>
+            </div>
+            <input id  = "btn" type = "submit" value = "Advanced Search">
+        </form>
+</body>
+</html>
